@@ -46,7 +46,8 @@ Catalogue interactif de services Architecture & Transformation permettant aux cl
 ├── [15 fiches services].html # Fiches détaillées individuelles
 ├── CSS/
 │   ├── catalog-style.css   # Styles page principale
-│   └── service-detail.css  # Styles fiches détaillées
+│   ├── service-detail.css  # Styles fiches détaillées
+│   └── offre-commercial.css # Styles marketing
 └── Assets/
     ├── PNG/                # Images et illustrations
     └── Monolithe.png       # Schémas techniques
@@ -58,12 +59,10 @@ Catalogue interactif de services Architecture & Transformation permettant aux cl
 
 ### Pages principales
 - **`index.html`** : Page d'accueil avec catalogue complet et chatbot global
-- **`FEA-catalogue_services.html`** : Vue alternative du catalogue
 - **15 fiches de service** : Pages détaillées pour chaque offre
 
 ### Fichiers de configuration
 - **`groq-config.js`** : Configuration pour l'API Groq
-- **`update-styles.ps1`** et **`update_links.ps1`** : Scripts de maintenance
 
 ### Documentation
 - **`README-GROQ.md`** : Documentation spécifique à l'intégration Groq

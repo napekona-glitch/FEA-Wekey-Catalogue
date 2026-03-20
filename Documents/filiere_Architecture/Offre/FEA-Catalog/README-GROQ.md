@@ -9,8 +9,9 @@
    - Copiez votre clé API (commence par `gsk_`)
 
 2. **Configurer la clé API**
-   - Ouvrez le fichier `index.html`
-   - Remplacez `gsk_YOUR_GROQ_API_KEY_HERE` par votre vraie clé API à la ligne 764
+   - Le chatbot utilise maintenant un backend proxy sécurisé
+   - La clé API est configurée côté backend (Cloudflare Workers)
+   - Pour une configuration personnalisée, voir `README-BACKEND.md`
    - OU utilisez le fichier `groq-config.js` pour une configuration centralisée
 
 ## Modèles disponibles

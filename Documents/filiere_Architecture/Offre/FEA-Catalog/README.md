@@ -93,9 +93,9 @@ python -m http.server 8000
 ```
 ├── index.html                    # Page principale du catalogue
 ├── CSS/
-│   ├── catalog-styles.css        # Styles principaux
-│   ├── print-styles.css          # Styles impression
-│   └── responsive-styles.css     # Styles responsive
+│   ├── catalog-style.css         # Styles principaux
+│   ├── service-detail.css        # Styles fiches détaillées
+│   └── offre-commercial.css      # Styles marketing
 ├── JS/
 │   ├── catalog-script.js         # Logique principale
 │   ├── chatbot-responses.js      # Réponses basiques chatbot
@@ -109,7 +109,7 @@ python -m http.server 8000
 ## 🎨 Personnalisation
 
 ### Modifier les Couleurs
-Dans `CSS/catalog-styles.css` :
+Dans `CSS/catalog-style.css` :
 ```css
 :root {
     --primary-color: #FF6B35;      /* Orange Wekey */
@@ -270,7 +270,7 @@ console.log('Debug:', { variable, data });
 
 ## 🎯 Quick Start (5 minutes)
 
-1. **Clonez** : `git clone [repository-url] && cd FEA-Catalog`
+1. **Clonez** : `git clone [repository-url| https://github.com/napekona-glitch/FEA-Catalogue-Wekey] && cd FEA-Catalog`
 2. **Ouvrez** : Double-cliquez sur `index.html`
 3. **Explorez** : Naviguez dans le catalogue
 4. **Testez** : Posez une question au chatbot
